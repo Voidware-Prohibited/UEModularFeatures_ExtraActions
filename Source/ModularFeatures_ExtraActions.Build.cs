@@ -9,15 +9,11 @@ public class ModularFeatures_ExtraActions : ModuleRules
 	public ModularFeatures_ExtraActions(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-		CppStandard = CppStandardVersion.Cpp17;
+		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
 
 		PublicDependencyModuleNames.AddRange(new[]
 		{
-			"Core"
-		});
-
-		PrivateDependencyModuleNames.AddRange(new[]
-		{
+			"Core",
 			"Engine",
 			"CoreUObject",
 			"InputCore",
@@ -25,7 +21,11 @@ public class ModularFeatures_ExtraActions : ModuleRules
 			"GameplayAbilities",
 			"GameplayTags",
 			"GameFeatures",
-			"ModularGameplay",
+			"ModularGameplay"
+		});
+
+		PrivateDependencyModuleNames.AddRange(new[]
+		{
 			"DeveloperSettings"
 		});
 	}

@@ -7,10 +7,6 @@
 #include "MFEA_Settings.h"
 #include "LogModularFeatures_ExtraActions.h"
 
-#ifdef UE_INLINE_GENERATED_CPP_BY_NAME
-#include UE_INLINE_GENERATED_CPP_BY_NAME(MFEA_Settings)
-#endif
-
 UMFEA_Settings::UMFEA_Settings(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer), bEnableAbilityAutoBinding(false),
                                                                               bEnableInternalLogs(false),
                                                                               AbilityBindingMode(EAbilityBindingMode::InputID),

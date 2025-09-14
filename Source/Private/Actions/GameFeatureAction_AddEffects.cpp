@@ -4,8 +4,8 @@
 
 #include "Actions/GameFeatureAction_AddEffects.h"
 #include "ModularFeatures_InternalFuncs.h"
-#include <Engine/GameInstance.h>
-#include <Components/GameFrameworkComponentManager.h>
+#include "Engine/GameInstance.h"
+#include "Components/GameFrameworkComponentManager.h"
 
 #ifdef UE_INLINE_GENERATED_CPP_BY_NAME
 #include UE_INLINE_GENERATED_CPP_BY_NAME(GameFeatureAction_AddEffects)

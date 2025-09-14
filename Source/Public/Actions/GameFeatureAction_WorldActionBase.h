@@ -4,12 +4,13 @@
 
 #pragma once
 
-#include <CoreMinimal.h>
-#include <GameFeatureAction.h>
-#include <GameFeaturesSubsystem.h>
-#include <Components/GameFrameworkComponentManager.h>
+#include "CoreMinimal.h"
+#include "GameFeatureAction.h"
+#include "GameFeaturesSubsystem.h"
+#include "Components/GameFrameworkComponentManager.h"
 #include "GameFeatureAction_WorldActionBase.generated.h"
 
+struct FComponentRequestHandle;
 class UGameInstance;
 struct FWorldContext;
 

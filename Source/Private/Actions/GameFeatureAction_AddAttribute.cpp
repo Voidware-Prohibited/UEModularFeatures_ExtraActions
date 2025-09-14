@@ -4,9 +4,9 @@
 
 #include "Actions/GameFeatureAction_AddAttribute.h"
 #include "ModularFeatures_InternalFuncs.h"
-#include <Components/GameFrameworkComponentManager.h>
-#include <Engine/GameInstance.h>
-#include <Runtime/Launch/Resources/Version.h>
+#include "Components/GameFrameworkComponentManager.h"
+#include "Engine/GameInstance.h"
+#include "Runtime/Launch/Resources/Version.h"
 
 #ifdef UE_INLINE_GENERATED_CPP_BY_NAME
 #include UE_INLINE_GENERATED_CPP_BY_NAME(GameFeatureAction_AddAttribute)
